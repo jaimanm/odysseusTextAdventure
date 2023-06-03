@@ -1,0 +1,23 @@
+come to a decision node:
+1. tell the player the context/situation
+2. give 2 different options - one is right, one is wrong
+3. prompt player to make a decision
+
+player makes a decision: 
+1. get player input (format?)
+2. reward/penalize player based on the decision
+3. direct player to next decision node based on current decision
+
+Scoring:
+If good answer, takes (a couple) days stay at the destination.
+If bad answer, takes (a lot of) days stay at the destination.
+Should always take a fixed amount of journey time in between nodes
+
+Main game loop {
+- run decision node program
+- run player decision program
+- iterate to the next correct node
+}
+
+Extra:
+High scores??
